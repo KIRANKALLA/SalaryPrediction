@@ -1,6 +1,6 @@
 import streamlit as st
 import pickle
-pickle_in=open('SalaryPrediction.pkl','rb')
+pickle_in=open('SalaryPrediction .pkl','rb')
 model=pickle.load(pickle_in)
 
 years=st.number_input('Years of Experience')
